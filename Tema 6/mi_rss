@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Mi canal RSS</title>
+        <link>https://etspage.infinityfreeapp.com</link>
+        <description>Noticias de interés</description>
+        <item>
+            <title>Noticias de interés del país</title>
+            <link>https://elpais.com</link>
+            <description>Noticias de El País</description>
+        </item>
+    </channel>
+</rss>

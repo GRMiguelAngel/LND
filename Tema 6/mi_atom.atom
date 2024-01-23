@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<feed xmls = "https://www.w3.org/2005/Atom" xml:lang = "es-es">
+        <title type = "text">Mi canal de RSS en Atom</title>
+        <id>https://etspage.infinityfreeapp.com</id>
+        <link rel = "self" type = "aplication/atom+xml" href = "https://etspage.infinityfreeapp.com/mi"/>
+        <link rel = "alternate" type = "text/html" href = "https://etspage.infinityfreeapp.com/"/>
+        <update> 2023-10-24T16:55:37Z</update>
+    <author>
+        <name>Miguel Ángel García Rodríguez</name>
+        <email>miguelangel2e2005@gmail.com</email>
+    </author>
+    <entry>
+        <title>Noticias de país</title>
+        <link rel = "alternate" type = "text/html" href = "https://elpais.com/"/>
+        <updated>2023-10-24T16:55:37Z</updated>
+        <id>https://elpais.com</id>
+    <author>
+        <name>Miguel Ángel García Rodríguez</name>
+        <email>miguelangel2e2005@gmail.com</email>
+    </author>
+    <summary>Noticias buenas y malas del país</summary>
+    </entry>
+</feed>
