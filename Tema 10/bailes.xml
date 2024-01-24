@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bailes>
+    <baile id='5'>
+        <nombre>Tango</nombre>
+        <precio moneda="Dolares" cuota="Trimestral">75</precio>
+        <comienzo>01/02/2024</comienzo>
+        <fin>20/02/2024</fin>
+        <profesor>Juan Luis</profesor>
+        <sala>103</sala>
+        <plazas>15</plazas>
+    </baile>
+    <baile id='27'>
+        <nombre>salsa</nombre>
+        <precio moneda="Dolares" cuota="Trimestral">75</precio>
+        <comienzo>01/02/2024</comienzo>
+        <fin>20/02/2024</fin>
+        <profesor>Juan Luis</profesor>
+        <sala>109</sala>
+        <plazas>15</plazas>
+    </baile>
+    <baile>
+        <nombre>chachacha</nombre>
+        <precio moneda="Euros" cuota="Mensual">35</precio>
+        <comienzo>01/02/2024</comienzo>
+        <fin>20/02/2024</fin>
+        <profesor>Juan Luis</profesor>
+        <sala>109</sala>
+        <plazas>15</plazas>
+    </baile>    
+    <baile>
+        <nombre>bachata</nombre>
+        <precio moneda="Dolares" cuota="Mensual">40</precio>
+        <comienzo>01/02/2024</comienzo>
+        <fin>20/02/2024</fin>
+        <profesor>Amancio Ortega</profesor>
+        <sala>1010</sala>
+        <plazas>20</plazas>
+    </baile>
+</bailes>
