@@ -2,8 +2,9 @@
     <articulos>
         <RefArticulo>10</RefArticulo>
         <ReferenciaProveedor>100</ReferenciaProveedor>
-        <NombreArticulo>huevos</NombreArticulo>
-        <NombreCategoria>alimentación</NombreCategoria>
+        <NombreArticulo>Bubbletea</NombreArticulo>
+        <NombreCategoria>Bebidas</NombreCategoria>
+        <RefPedido>1</RefPedido>
         <PrecioUnidad>30</PrecioUnidad>
         <UnidadesExistencia>40</UnidadesExistencia>
     </articulos>
