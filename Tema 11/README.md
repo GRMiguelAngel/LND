@@ -10,6 +10,7 @@
 
 Es un sistema que ayuda a automatizar y administrar los procesos empresariales de distintas áreas: finanzas, fabricación, venta al por menor, cadena de suministro, recursos humanos y operaciones. Los sistemas ERP desglosan los silos de datos e integran la información obtenida en los diversos departamentos, de esta forma, ayudan a los directivos a extraer conocimientos, optimizar operaciones y mejorar la toma de decisiones.
 
+Ejemplo de aplicaciones: *OpenBravo, Microsoft Dynamics,  OpenERP, SAP*
 <br>
 <br>
 <br>
@@ -20,11 +21,18 @@ Es un sistema que ayuda a automatizar y administrar los procesos empresariales d
 
 Los sistemas CRM permiten a las empresas almacenar información sobre los clientes, realizar un seguimiento de las interacciones y automatizar diversos procesos, lo que da lugar a un compromiso con el cliente más personalizado y eficaz. 
 
+Ejemplo de aplicaciones: *Microsoft Dynamics*
 <br>
 
 * ### CMS:
 
-Un sistema de gestión de contenidos (CMS en sus siglas en inglés: Content Management System) es una aplicación de software que se ejecuta en un navegador. Proporciona a los usuarios una interfaz gráfica de usuario que les permite crear y administrar un sitio web sin necesidad de codificarlo desde cero.
+Un sistema de gestión de contenidos (CMS en sus siglas en inglés: Content Management System) es una aplicación de software que se ejecuta en un navegador. Proporciona a los usuarios una interfaz gráfica de usuario que les permite crear y administrar un sitio web sin necesidad de codificarlo desde cero. Con un CMS, puedes personalizar el diseño del sitio web descargando y modificando plantillas, y extensiones preconstruidas. Algunas de sus funciones también incluyen la gestión y modificación de contenidos, el almacenamiento de imágenes y la creación de páginas web.
 
-Con un CMS, puedes personalizar el diseño del sitio web descargando y modificando plantillas, y extensiones preconstruidas. Algunas de sus funciones también incluyen la gestión y modificación de contenidos, el almacenamiento de imágenes y la creación de páginas web.
+Ejemplo de aplicaciones: *Drupal, Joomla, WordPress, OpenCMS, Blogger, Moodle, DropBox*
+<br>
+
+* ### Aplicación de E-Learning:
+
+Una plataforma de e-learning es un entorno virtual de aprendizaje que utiliza tecnologías de la información y la comunicación para facilitar el proceso de enseñanza y aprendizaje. Se compone de diferentes herramientas que permiten a los usuarios interactuar, comunicarse y colaborar en línea. Estas herramientas pueden incluir foros de discusión, chat en vivo, videoconferencias, cuestionarios en línea, materiales didácticos interactivos y evaluaciones en línea, entre otras.
+
 </div>
