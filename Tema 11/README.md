@@ -1,6 +1,7 @@
 # Tarea: Práctica 2
 
 <div align='Justify'>
+
 >***Realiza un pequeño documento donde expliques con tus palabras la diferencia entre un ERP, un CRM, un CMS y una aplicación de E-Learning.***
 
 * ### ERP:
