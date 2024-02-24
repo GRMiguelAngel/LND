@@ -1,6 +1,6 @@
 # Tarea: Práctica 2
 
-### *Realiza un pequeño documento donde expliques con tus palabras la diferencia entre un ERP, un CRM, un CMS y una aplicación de E-Learning.*
+>***Realiza un pequeño documento donde expliques con tus palabras la diferencia entre un ERP, un CRM, un CMS y una aplicación de E-Learning.***
 
 * ### ERP:
 <img src='erp.webp'>
