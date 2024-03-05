@@ -2,6 +2,7 @@
 
 <img src="tarea_tabla.png">
 
+```
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -64,3 +65,4 @@
     
 </body>
 </html>
+```
