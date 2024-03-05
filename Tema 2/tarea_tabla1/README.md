@@ -1,7 +1,7 @@
 # Tarea Tabla 1
 
 <img src="tarea_tabla.png">
-```html
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -64,4 +64,3 @@
     
 </body>
 </html>
-```
