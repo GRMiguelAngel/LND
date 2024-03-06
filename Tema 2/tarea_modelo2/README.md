@@ -1,0 +1,48 @@
+# Tarea modelo 2
+
+<img src="modelo2.png">
+
+```code
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1px">
+        <tr>
+            <td style="color:green;" colspan="4" align="Center">Programación</td>
+            <td align="Right">Asignatura de primer curso</td>
+        </tr>
+        <tr>
+            <td><img src="python.jpg" height="50" width="50"></td>
+            <td colspan="4"><b>Python</b>:Lenguaje para empezar</td>
+        </tr>
+        <tr>
+            <td><img src="java.jpg" height="50" width="50"></td>
+            <td colspan="4"><b>Java</b>:Lenguaje más potente actual.</td>
+        </tr>
+        <tr>
+            <td><img src="javascript.jpg" height="50" width="50"></td>
+            <td colspan="4"><b>JavaScript</b>:Lo aprenderás en segundo curso.</td>
+        </tr>
+        <tr>
+            <td><img src="mano.jpg" height="50" width="50"></td>
+            <td align="Center"><a href="www.iespuertodelacruz.es">VEN AL INSTITUTO</a></td>
+            <td colspan="3">
+                Otras materias de primero:
+                <ol type="A">
+                    <li>Lengua de Marcas</li>
+                    <li>Base de datos</li>
+                    <li>Entornos</li>
+                    <li>Sistemas</li>
+                    <li>Inglés</li>
+                </ol>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
+```
