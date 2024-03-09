@@ -1,0 +1,52 @@
+# Tarea modelo 4
+
+<img src="tarea_modelo4.png">
+
+```code
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1px" width="50%">
+        <tr>
+            <td colspan="4"><h2 style="color: red;">Clases con ataques cuerpo a cuerpo</h2></td>
+        </tr>
+        <tr>
+            <td><a style="color: gray;">Razas</a></td>
+            <td><a style="color: red;">Clases</a></td>
+            <td><a style="color: gray;">Objetos</a></td>
+            <td rowspan="6">Personajes con ataques cuerpo a cuerpo:<br>
+                vi. Brujo<br>
+                vii. Mago<br>
+                viii. Sacerdote<br>
+                ix. Cazador<br>
+                x. Chamán
+        </tr>
+        <tr>
+            <td><img src="monje.png" height="80px" width="80px"></td>
+            <td colspan="2"><i>Monje</i>:personaje con ataque cuerpo a cuerpo
+        </tr>
+        <tr>
+            <td colspan="2"><i>Pícaro</i>:personaje con ataque cuerpo a cuerpo</td>
+            <td><img src="picaro.png" height="80px" width="80px"></td>
+        </tr>
+        <tr>
+            <td><img src="caballero.png" height="80px" width="80px"></td>
+            <td colspan="2"><i>Caballero de la muerte</i>:personaje con ataque cuerpo a cuerpo</td>
+        </tr>
+        <tr>
+            <td colspan="2"><i>Guerrero</i>:personaje con ataque cuerpo a cuerpo</td>
+            <td><img src="guerrero.png" height="80px" width="80px"></td>
+        </tr>
+        <tr>
+            <td><img src="paladin.png" height="80px" width="80px"></td>
+            <td colspan="2"><i>Paladín</i>:personaje con ataque cuerpo a cuerpo</td>
+        </tr>
+    </table>
+</body>
+</html>
+```
