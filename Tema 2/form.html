@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div align="" style="color: navy;">
+        <form name="Información">
+            <br>
+            <!-- Agrupa parte del formulario -->
+            <fieldset>
+                <legend>Información personal</legend>           
+                <label for="iname">Nombre: </label>
+                <input type="text" id="iname" name="nombre"></input>
+                <br>
+                <br>
+                <label for="last_name">Apellido: </label>
+                <input type="text" id="last_name" name="apellido">
+                <br>
+                <br>
+                <label for="email">Email: </label>
+                <input type="email" id="email" name="email">
+                <br>
+                <br>
+                <label for id="epass">Contraseña:</label>
+                <input id="epass" type="password" name="contraseña">
+                <input type="reset" value="Borrar todo">
+                <br>
+                <br>
+                <input type="submit" value="mandar">
+                <br>
+                <br>
+                <!-- Elección única (radio) -->
+                <input type="radio" name="color">
+                <label style="color: red;" for="red">Rojo</label>
+                <!-- Checked es para que haya una opción seleccionada por defecto -->
+                <input type="radio" name="color1" checked>
+                <label style="color: blue;" for="blue">Azul</label>
+                <input type="radio" name="color">
+                <label style="color: green;" for="green">Verde</label>
+                <input type="radio" name="color1">
+                <label style="color: brown;" for="brown">Marrón</label>
+                <br>
+                <br>
+                <!-- Elección múltiple (checkbox) -->
+                <input type="checkbox" name="red">
+                <label style="color: red;" for="red">Rojo</label>
+                <input type="checkbox" name="blue">
+                <label style="color: blue;" for="blue">Azul</label>
+                <input type="checkbox" name="green">
+                <label style="color: green;" for="green">Verde</label>
+                <br>
+                <br>
+            </fieldset>
+                <!-- Botón -->
+                <input type="button" value="Botón" onclick="alert('hola')">
+                <br>
+                <br>
+                <input type="color" name="color">
+                <br>
+                <br>
+                <!-- Seleccionar fecha -->
+                <input type="date" name="fecha">
+                <br>
+                <br>
+                <!-- Seleccionar fecha y hora -->
+                <input type="datetime-local" name="fecha">
+                <br>
+                <br>
+                <!-- Subir un fichero -->
+                <input type="file" name="fichero">
+                <br>
+                <br>
+                <!-- Introducir mes -->
+                <input type="mounth" name="mes">
+                <br>
+                <br>
+                <!-- Introducir número -->
+                <input type="number" name="numero">
+                <br>
+                <br>
+                <!-- Barra desplazable -->
+                <input type="range" min="0" max="100">
+                <br>
+                <br>
+                <!-- Buscador -->
+                <input type="search" name="buscador">
+                <br>
+                <br>
+                <!-- Número de teféfono -->
+                <input type="tel" name="telefono">
+                <br>
+                <br>
+                <!-- Hora -->
+                <input type="time" name="hora">
+                <br>
+                <br>
+                <!-- Introducir url -->
+                <input type="url" name="url">
+                <br>
+                <br>
+                <!-- Introducir semana -->
+                <input type="week" name="semana">
+                <br>
+                <br>
+                <!-- Texto -->
+                <textarea rows="30" cols="50"></textarea>
+    </form>
+    </div>
+</body>
+</html>
