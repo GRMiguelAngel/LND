@@ -1,0 +1,41 @@
+header{
+    background-color: sandybrown;
+    color: rgb(29, 29, 29);
+    width: 500px;
+    height: 80px;
+    float: left;
+}
+
+nav {
+    background-color: rgb(62, 62, 250);
+    width: 100px;
+    height: 120px;
+}
+
+main {
+    background-color: aquamarine;
+    width: 200px;
+}
+
+aside {
+    background-color: orange;
+    width: 300px;
+}
+
+footer {
+    background-color: blueviolet;
+    color: white;
+    width: 400px;
+}
+
+header, nav, main, aside, footer {
+    width: 40%;
+    height: 200px;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+nav, main, aside, footer {
+    float: left;
+}
