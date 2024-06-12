@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Titulo de prueba mi-rss</title>
+    </head>
+    <body>
+        <p>Hola mundo cruel</p>
+        <a type = "application/rss+xml" href = "mi_rss">Enlazar a especificación RSS del canal</a>
+        <p>Adiós mundo cruel</p>
+        <a type = "application/rss+xml" href = "mi_atom.atom">Enlazar a especificación Atom del canal</a>
+    </body>
+</html>

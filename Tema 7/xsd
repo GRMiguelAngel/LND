@@ -1,0 +1,6 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<alumno>
+    <nombre>Jorge</nombre>
+    <edad>42</edad>
+    <nota>7.3</nota>
+<alumno>

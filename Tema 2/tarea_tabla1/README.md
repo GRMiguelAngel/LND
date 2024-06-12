@@ -1,0 +1,68 @@
+# Tarea Tabla 1
+
+<img src="tarea_tabla.png">
+
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    table, th, td {
+      border:1px solid black;
+    }
+    </style>
+<body>
+    <table style="width:50%;height:">
+        <tr>
+            <th></th>
+            <th colspan="3"><img src="120_ipod.png" height="90px" width="90px"></th>
+            <th colspan="2"><img src="100_ipod.png" height="90px" width="90px"></th>
+        </tr>
+        <tr>
+            <th>Capacidad</th>
+            <td>2GB</td>
+            <td>4GB</td>
+            <td>8GB</td>
+            <td>32GB</td>
+            <td>2GB</td>
+        </tr>
+        <tr>
+            <th>Colores</th>
+            <th>Blanco</th>
+            <td>
+                <ul>
+                    <li>Negro</li>
+                    <li>Rosa</li>
+                    <li>Dorado</li>
+                </ul>
+            </td>
+            <th>Negro</th>
+            <td colspan="2">
+            <ul>
+                <li>Negro</li>
+                <li>Blanco</li>
+            </ul>
+            </td>
+        </tr>
+        <tr>
+            <th>Pantalla</th>
+            <th colspan="3">3 pulgadas</th>
+            <th colspan="2">7 pulgadas</th>
+        </tr>
+        <tr>
+            <th rowspan="2">Tiempo de Carga</th>
+            <th rowspan="2" colspan="3">1 hora</th>
+            <th colspan="3">5 hotas</th>
+        </tr>
+        <tr>
+            <th colspan="3">30 minutos para 75%</th>
+        </tr>
+    </table>
+    
+</body>
+</html>
+```

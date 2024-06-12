@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./style/index.css">
+    <link rel="shortcut icon" href="./images/logo_rayo_TheWarning.png" />
+    <title>The Warning</title>
+</head>
+<body>
+    <header>
+        <div class="titulo"><h1>The Warning</h1></div>
+    </header>
+    <nav>
+        <!-- Side navigation menu -->
+        <div id="mySidenav" class="sidenav">
+            <h2>Opciones</h2>
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><img src="./images/hiden.png" width="35px"></a>
+            <a href="index.html">Inicio</a>
+            <a href="https://www.thewarningband.com">Página Oficial</a>
+            <div class="dropdown">
+                <button onclick="drop_down()" class="dropbtn">Redes Sociales</button>
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="https://www.tiktok.com/@thewarningrockband?lang=es">TikTok</a>
+                    <a href="https://www.instagram.com/thewarningrockband/">Instagram</a>
+                    <a href="https://www.youtube.com/channel/UCeZHVOA5rP9rHoa7zKCx7kQ">Youtube</a>
+                </div>
+            </div>
+            <a href="./internal_pages/discography.html">Discografía</a>
+        </div>
+        <span onclick="openNav()"><img src="./images/pngegg.png" width="35px"></span>
+        
+        <!-- Button to open the side navigation menu -->
+
+    <script>
+        function openNav() {
+            // Slide in the side navigation menu from the left
+            document.getElementById("mySidenav").style.left = "0";
+            document.getElementById("main").style.marginLeft = "250px"; // Adjust main content margin
+        }
+
+        function closeNav() {
+            // Slide out the side navigation menu to the left
+            document.getElementById("mySidenav").style.left = "-250px";
+            document.getElementById("main").style.marginLeft = "0"; // Reset main content margin
+        }
+
+        function drop_down() {
+            document.getElementById("myDropdown").classList.toggle("show");
+        }
+        window.onclick = function(event) {
+        if (!event.target.matches('.dropbtn')) {
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains('show')) {
+                openDropdown.classList.remove('show');
+            }
+            }
+        }
+        }
+    </script>
+    </nav>
+    <main>
+        <div class="imagen_grupo">
+            <img src="images/The-Warning-cover-de-Metallica.webp">
+        </div>
+        <div class="introduction">
+            <h4>
+                The Warning es una banda de rock proveniente de Monterrey, Nuevo León (México), y formada en el año 2013 por las hermanas Villarreal Vélez: Daniela (voz principal y guitarra), Paulina (batería y voz) y Alejandra (bajo y coros).
+
+                El nombre The Warning (en inglés, la advertencia, alerta, aviso) alude a una nueva generación que sigue atentamente los problemas que amenazan a la sociedad moderna. Como explica Daniela: "siempre estamos alerta a lo que está pasando en la vida de la gente. El nombre tiene algo de eso".
+
+                Con participaciones en grandes festivales y giras musicales por Latinoamérica, Norteamérica y Europa, más el reconocimiento de músicos célebres como Kirk Hammett (Metallica), Lzzy Hale (Halestorm), Matt Bellamy (Muse) o David Draiman (Disturbed), el grupo ha consolidado una carrera de proyección internacional. 
+            </h4>
+        </div>
+        
+    </main>
+</body>
+</html>

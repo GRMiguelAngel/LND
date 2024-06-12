@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a><h3>Miguel Ángel</h3></a>
+    <form name="formulario">
+        <fieldset>
+            <legend>Datos del propietario</legend>
+            <label for="iname">Nombre: </label>
+            <input type="text" id="iname" name="nombre"></input>
+            <br>
+            <input type="radio" name="sexo" checked>
+            <label for="hombre">Hombre</label>
+            <input type="radio" name="sexo">
+            <label for="mujer">Mujer</label>
+        </fieldset>
+        <fieldset>
+            <legend>Datos del vehículo</legend>
+            <label for="marca/modelo">Marca/modelo: </label>
+            <input type="text" id="marca/modelo" name="marca/modelo"></input>
+            <br>
+            <br>
+            <label for="matricula">Matrícula: </label>
+            <input type="text" id="matricula" name="matricula"></input>
+            <br>
+            <br>
+            <label for="options">Características: </label>
+            <select name="options" id="options">
+                <option value="utilitario">Utilitario</option>
+                <option value="alta_gama">Alta gama</option>
+                <option value="todo_terreno">Todo terreno</option>
+            </select>
+            <br>
+            <a>Otros datos:</a>
+            <br>
+            <input type="checkbox" name="otros_datos" checked>
+            <label for="servofrenos">Servofrenos</label>
+            <input type="checkbox" name="otros_datos">
+            <label for="elevalunas">Elevalunas</label>
+            <input type="checkbox" name="otros_datos">
+            <label for="remolque">remolque</label>
+        </fieldset>
+    </form>
+</body>
+</html>

@@ -1,0 +1,138 @@
+body {
+    background-color: black;
+    animation: aparecer 2s;
+}
+
+.sidenav {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: -250px; /* Initially hidden to the left */
+    background-color: gray;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s; /* Transition duration for sliding effect */
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+    font-family: sans-serif;
+}
+
+.sidenav a:hover {
+    transform: scale(1.05);
+    color: rgb(143, 28, 28);
+    text-shadow: 0px 0px 28px white;
+    border-color: rgb(143, 28, 28);
+    transition: all 0.2s ease;
+}
+
+div button {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    background-color: transparent;
+    transition: 0.3s;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+    transform: scale(1.05);
+    color: rgb(143, 28, 28);
+    text-shadow: 0px 0px 28px white;
+    border-color: rgb(143, 28, 28);
+    transition: all 0.2s ease;
+}
+
+.show {
+    display: block;
+}
+
+.sidenav a:nth-child(2) {
+    position: absolute;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+main .album_image {
+    text-align:  right;
+    margin-right: 140px;
+    margin-top: 100px;
+}
+
+main div a {
+    color:oldlace;
+    right: 100px;
+
+}
+
+.introduction {
+    margin: auto;
+    text-align: justify;
+    max-width: 1200px;
+    line-height: 23px;
+    color: oldlace;
+}
+
+span {
+    position: fixed;
+    color: white;
+    top: 10px;
+}
+
+.sidenav h2 {
+    font-family: GrillSansNova;
+    position: absolute;
+    left: 30px;
+    top: 0px;
+}
+
+@font-face {
+    font-family: GrillSansNova;
+    src: url(./style/gillsansnova_cnextrabold.ttf);
+}
+
+@keyframes aparecer {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 100;
+    }
+}

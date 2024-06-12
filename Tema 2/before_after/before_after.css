@@ -1,0 +1,22 @@
+.nav-link:hover::after {
+    content: '';
+    width: 100%;
+    height: 3px;
+    background-color: blue;
+    display: block;
+    animation-name: ampliar_anchura;
+    animation-duration: 0.5s;
+}
+
+a{
+    display: inline-block;
+}
+
+@keyframes ampliar_anchura {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 100%;
+    }
+}
